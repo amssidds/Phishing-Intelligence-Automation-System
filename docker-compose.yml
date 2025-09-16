@@ -1,0 +1,11 @@
+services:
+  phish-analyzer:
+    build: .
+    container_name: phish-analyzer
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - TZ=UTC
+    volumes:
+      - ./samples:/app/samples
+      - ./templates.py:/app/templates.py  # edit layout live
