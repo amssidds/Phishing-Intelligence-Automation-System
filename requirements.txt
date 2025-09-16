@@ -1,0 +1,7 @@
+dkimpy==1.1.8        # (unused now, but safe to keep) — you can remove if you want
+dnspython==2.6.1
+pyspf==2.0.14
+requests==2.32.4
+tldextract==5.1.2    # (unused by this version; ok to keep/remove)
+extract_msg==0.52.0
+olefile==0.47
